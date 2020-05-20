@@ -19,5 +19,8 @@
   "homepage": "https://github.com/r-k-b/netlify#readme",
   "devDependencies": {
     "live-server": "1.2.1"
+  },
+  "dependencies": {
+    "@lhci/cli": "0.3.14"
   }
 }

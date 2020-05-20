@@ -5,9 +5,58 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#3367D6"/>
+    <link rel="manifest" href="/manifest.webmanifest">
     <title>Document</title>
+    <style type="text/css">/* mvp css only! */
+        :root {
+            --color-fg: black;
+            --color-bg: white;
+            --color-link: rgb(0, 0, 238);
+            --color-link-visited: rgb(85, 26, 139);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --color-fg: #d0cdbb;
+                --color-bg: #191f19;
+                --color-link: rgb(86, 86, 255);
+                --color-link-visited: #ce96fe;
+            }
+        }
+
+        body {
+            color: var(--color-fg);
+            background-color: var(--color-bg);
+
+            font-family: "Comic Sans MS", serif;
+        }
+
+        p {
+            max-width: 40em;
+        }
+
+        a {
+            color: var(--color-link);
+        }
+
+        a:visited {
+            color: var(--color-link-visited);
+        }
+    </style>
+    <meta name="description" content="let's experiment with a personal site!?">
 </head>
 <body>
-testing
+<h1>what's here?</h1>
+
+<p>I made a <a href="https://tulars-5f1d1.firebaseapp.com/">demo that applies
+    Utility Theory to agents in games</a></p>
+
+<p>I post code to <a href="https://github.com/r-k-b">this GitHub account</a></p>
+
+<p>I help people at <a
+    href="https://stackoverflow.com/users/2014893/robert-k-bell">Stack
+    Overflow</a>
+</p>
 </body>
 </html>
