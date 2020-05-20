@@ -1,0 +1,21 @@
+# info: http://editorconfig.org
+# vs-plugin: https://marketplace.visualstudio.com/items?itemName=EditorConfigTeam.EditorConfig
+
+[*]
+charset = utf-8
+indent_size = 4
+tab_width = 4
+insert_final_newline = true
+max_line_length = 80
+end_of_line = lf
+
+[*.sh]
+end_of_line = lf
+
+[*.{js,ts,less,css}]
+indent_style = space
+trim_trailing_whitespace = true
+
+[package.json]
+indent_size = 2
+tab_width = 2

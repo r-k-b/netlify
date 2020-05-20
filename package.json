@@ -1,0 +1,23 @@
+{
+  "name": "netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-k-b/netlify.git"
+  },
+  "author": "Robert K. Bell <robert.k.bell@gmail.com>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/r-k-b/netlify/issues"
+  },
+  "homepage": "https://github.com/r-k-b/netlify#readme",
+  "devDependencies": {
+    "live-server": "1.2.1"
+  }
+}
