@@ -10,6 +10,8 @@ module.exports = {
                 'offline-start-url': 'off',
                 'service-worker': 'off',
                 'splash-screen': 'off',
+                'apple-touch-icon': 'off',
+                'maskable-icon': 'off',
             },
         },
         upload: {
