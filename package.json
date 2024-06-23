@@ -21,6 +21,6 @@
     "live-server": "1.2.2"
   },
   "dependencies": {
-    "@lhci/cli": "0.13.0"
+    "@lhci/cli": "0.14.0"
   }
 }
